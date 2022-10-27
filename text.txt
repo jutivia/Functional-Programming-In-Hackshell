@@ -1,0 +1,31 @@
+Polymorphic vs overloaded functions
+polymorphic functions have no type constraints e.h length, whle overloaded functions have type constraints e.g sum, product, div
+Foldr 
+Library functions 
+. => all
+all => returns bool  if every element in a list satisfies a given predicate
+e.g all even [1,2,3,4,5] => returns false
+any => does the opposite of all
+any p xs = or[px | x<- xs]
+
+takeWhile consumes values from a list until the predicate set is met
+e.b takeWhile (/= ' ') "abc efg" => returns "abc"
+
+dropWhile consumes values from a list while the  predicate set is met
+
+How to write recursion
+1. Name the function
+2. Write the type of the function
+3. Enumerate the cases for the function i.e function skeleton/ base cases
+4. Define the simple cases for the function
+5. List the ingredients for the remaining cases
+6. Define the other cases
+7. Think about the result
+
+A new name for an existing type can be defined using type declaration
+e.g type String = [Char]
+
+A completely new type can be defined by specifying its values using data declaration
+e.g data Bool = False | True
+
+what is context free grammars
