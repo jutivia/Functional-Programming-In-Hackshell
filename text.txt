@@ -2,7 +2,7 @@ Polymorphic vs overloaded functions
 polymorphic functions have no type constraints e.h length, whle overloaded functions have type constraints e.g sum, product, div
 Foldr 
 Library functions 
-. => all
+=> all
 all => returns bool  if every element in a list satisfies a given predicate
 e.g all even [1,2,3,4,5] => returns false
 any => does the opposite of all
